@@ -1,0 +1,58 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "anish pie",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GPIOControlIntent",
+                    "slots": [
+                        {
+                            "name": "pin",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "status",
+                            "type": "GPIO_CONTROL"
+                        }
+                    ],
+                    "samples": [
+                        "GPIOControlIntent to turn pin {pin} {status}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "GPIO_CONTROL",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "OFF"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ON"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

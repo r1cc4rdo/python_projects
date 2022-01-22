@@ -1,0 +1,50 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "riccardo\u0027s inbox",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AddTodo",
+          "slots": [
+            {
+              "name": "todo_item",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "include {todo_item}",
+            "queue {todo_item}",
+            "add {todo_item}"
+          ]
+        },
+        {
+          "name": "MoreClose",
+          "slots": [],
+          "samples": [
+            "ok",
+            "ciao",
+            "done"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "28"
+}

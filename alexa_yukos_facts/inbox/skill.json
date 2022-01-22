@@ -1,0 +1,49 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Add items to Riccardo\u0027s inbox",
+          "examplePhrases": [
+            "Alexa open Riccardo\u0027s inbox",
+            "add buy milk",
+            "queue shave a yak"
+          ],
+          "keywords": [
+            "Things",
+            "Todo",
+            "Riccardo"
+          ],
+          "name": "Riccardo\u0027s inbox",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "description": "Add items to Riccardo\u0027s inbox",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "open Riccardo\u0027s inbox\nadd buy milk\nqueue shave a yak",
+      "category": "TO_DO_LISTS_AND_NOTES",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:827861705058:function:a4643c94-c62d-4444-91f2-4025533bc96a:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
