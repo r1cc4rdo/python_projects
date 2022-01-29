@@ -5,6 +5,15 @@ See also: [research tools](https://github.com/r1cc4rdo/papers/blob/main/PYTHON.m
 * **datestring**: [reference](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior), [cheatsheet](https://strftime.org), [sandbox](https://www.strfti.me)
 * **Regular expressions**: [builder](https://regex101.com)
 
+### Serve webpages
+* [Bottle](bottlepy.org). See IhmNextor
+* [Flask](flask.palletsprojects.com)
+* [Pglet](pglet.io)
+
+### UI
+* [Qt for Python](https://doc.qt.io/qtforpython/)
+* [DearPyGui](https://github.com/hoffstadt/DearPyGui) and [3D](https://github.com/hoffstadt/DearPy3D)
+
 ### Libraries
 * [borb](https://borbpdf.com): read, write, edit PDFs with Python. See also: [backend for Matplotlib](https://stackoverflow.com/a/31133453/2814783)
 * [HTTPX](https://www.python-httpx.org): great HTTPX client
