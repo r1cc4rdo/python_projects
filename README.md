@@ -9,6 +9,7 @@ See also: [research tools](https://github.com/r1cc4rdo/papers/blob/main/PYTHON.m
 * [Bottle](bottlepy.org). See IhmNextor
 * [Flask](flask.palletsprojects.com)
 * [Pglet](pglet.io)
+* [Gradio](https://github.com/gradio-app/gradio)
 
 ### UI
 * [Qt for Python](https://doc.qt.io/qtforpython/)
