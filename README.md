@@ -19,6 +19,7 @@ See also: [research tools](https://github.com/r1cc4rdo/papers/blob/main/PYTHON.m
 * [borb](https://borbpdf.com): read, write, edit PDFs with Python. See also: [backend for Matplotlib](https://stackoverflow.com/a/31133453/2814783)
 * [HTTPX](https://www.python-httpx.org): great HTTPX client
 * [Rich](https://github.com/willmcgugan/rich): Python library for rich text
+* [Ryven](https://ryven.org): Flow-based visual scripting for  (see also: [github](https://github.com/leon-thomm/Ryven))
 
 ### Tools
 * [Brython](https://brython.info) / [Pyodide](https://github.com/pyodide/pyodide): javascript but Python
