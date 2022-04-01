@@ -23,6 +23,7 @@ See also: [research tools](https://github.com/r1cc4rdo/papers/blob/main/PYTHON.m
 
 ### Tools
 * [Brython](https://brython.info) / [Pyodide](https://github.com/pyodide/pyodide): javascript but Python
+* [fman build system](https://build-system.fman.io)
 * [PyInstaller](https://www.pyinstaller.org) bundles Python applications
 * [Pyjion](https://www.trypyjion.com): A Python JIT Compiler
 * [pyp](https://github.com/hauntsaninja/pyp): run Python at the shell
